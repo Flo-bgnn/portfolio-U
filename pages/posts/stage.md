@@ -107,6 +107,7 @@ En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie mo
         Sous-clonage (par Gibson Assembly)
         <div class="skill-description">
             <p>Le sous-clonage est une technique utilisée pour transférer un fragment d'ADN d'une molécule à une autre, souvent dans le but de l'étudier plus en détail.</p>
+            <p>Le clonage par assemblage de brins Gibson est une technique de clonage qui ne repose pas sur des sites de restriction comme dans les techniques de clonage traditionnelles. Le clonage par assemblage de brins Gibson repose sur la présence de régions homologues aux extrémités des morceaux d'ADN.</p>
         </div>
     </li>
     <li class="skill-item" data-description="Les preps, du miniprep à la maxiprep, sont des techniques de purification de l'ADN à différentes échelles.">
