@@ -2,7 +2,7 @@
 title: Escalade et Bloc
 date: 2022/12/02
 author: You
-type: posts
+type: post
 tag: web development
 ---
 
