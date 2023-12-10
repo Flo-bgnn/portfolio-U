@@ -225,7 +225,7 @@ En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie mo
 
         .small-image {
             flex: 0 0 auto;
-            width: 12.4%;
+            width: 12.49%;
             margin: 0;
             box-sizing: border-box;
             border: 2px solid #333;
