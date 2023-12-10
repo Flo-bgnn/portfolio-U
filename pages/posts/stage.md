@@ -104,7 +104,7 @@ En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie mo
         </div>
     </li>
     <li class="skill-item" data-description="Le sous-clonage est une technique utilisée pour transférer un fragment d'ADN d'une molécule à une autre, souvent dans le but de l'étudier plus en détail.">
-        Sous-clonage
+        Sous-clonage (par Gibson Assembly)
         <div class="skill-description">
             <p>Le sous-clonage est une technique utilisée pour transférer un fragment d'ADN d'une molécule à une autre, souvent dans le but de l'étudier plus en détail.</p>
         </div>
@@ -225,7 +225,7 @@ En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie mo
 
         .small-image {
             flex: 0 0 auto;
-            width: 12.8%;
+            width: 12.5%;
             margin: 0;
             box-sizing: border-box;
             border: 2px solid #333;
