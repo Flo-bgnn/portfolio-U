@@ -15,6 +15,34 @@ Pendant l'été 2023, j'ai eu l'opportunité passionnante de participer à un st
 
 ### compétence
 
+<ul class="skill-list">
+    <li class="skill-item" data-description="QGIS est un logiciel libre et open source de système d'information géographique (SIG) qui permet de visualiser, analyser et interpréter des données spatiales.">
+        QGIS
+        <div class="skill-description">
+            <p>QGIS est un logiciel libre et open source de système d'information géographique (SIG) qui permet de visualiser, analyser et interpréter des données spatiales.</p>
+        </div>
+    </li>
+    <li class="skill-item" data-description="RStudio est un environnement de développement intégré (IDE) pour le langage de programmation R. Il offre des fonctionnalités avancées pour l'analyse statistique et la création de visualisations de données.">
+        RStudio
+        <div class="skill-description">
+            <p>RStudio est un environnement de développement intégré (IDE) pour le langage de programmation R. Il offre des fonctionnalités avancées pour l'analyse statistique et la création de visualisations de données.</p>
+        </div>
+    </li>
+    <li class="skill-item" data-description="Identification des fèces de glouton, de loup, de lynx, de perdrix et d'élan pour étudier leur régime alimentaire et leur comportement.">
+        Identification des Fèces d'animaux de Carélie
+        <div class="skill-description">
+            <p>Identification des fèces d'ours, de glouton, de loup, de lynx, de perdrix et d'élan pour effectuer un tracage d'individu ou décompte des populations </p>
+        </div>
+    </li>
+    <li class="skill-item" data-description="La dissection de fèces implique l'analyse minutieuse des excréments pour identifier les proies prédatées.">
+        Dissection de Fèces
+        <div class="skill-description">
+            <p>La dissection de fèces implique l'analyse minutieuse des excréments pour identifier les proies prédatées.</p>
+        </div>
+    </li>
+    <!-- Ajoutez d'autres compétences au besoin -->
+</ul>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,33 +89,6 @@ Pendant l'été 2023, j'ai eu l'opportunité passionnante de participer à un st
 En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie moléculaire d'une durée d'un mois à l'IAB (Institut of Advanced Biology) à Grenoble. Au cœur de ce laboratoire de pointe, j'ai pu plonger dans le monde fascinant de la biologie moléculaire, en travaillant sur des projets innovants et en collaborant avec des chercheurs passionnés. Cette expérience a renforcé mes compétences techniques et ma passion pour la recherche scientifique.
 
 ### compétence
-<ul class="skill-list">
-    <li class="skill-item" data-description="QGIS est un logiciel libre et open source de système d'information géographique (SIG) qui permet de visualiser, analyser et interpréter des données spatiales.">
-        QGIS
-        <div class="skill-description">
-            <p>QGIS est un logiciel libre et open source de système d'information géographique (SIG) qui permet de visualiser, analyser et interpréter des données spatiales.</p>
-        </div>
-    </li>
-    <li class="skill-item" data-description="RStudio est un environnement de développement intégré (IDE) pour le langage de programmation R. Il offre des fonctionnalités avancées pour l'analyse statistique et la création de visualisations de données.">
-        RStudio
-        <div class="skill-description">
-            <p>RStudio est un environnement de développement intégré (IDE) pour le langage de programmation R. Il offre des fonctionnalités avancées pour l'analyse statistique et la création de visualisations de données.</p>
-        </div>
-    </li>
-    <li class="skill-item" data-description="Identification des fèces de glouton, de loup, de lynx, de perdrix et d'élan pour étudier leur régime alimentaire et leur comportement.">
-        Identification des Fèces d'animaux de Carélie
-        <div class="skill-description">
-            <p>Identification des fèces d'ours, de glouton, de loup, de lynx, de perdrix et d'élan pour effectuer un tracage d'individu ou décompte des populations </p>
-        </div>
-    </li>
-    <li class="skill-item" data-description="La dissection de fèces implique l'analyse minutieuse des excréments pour identifier les proies prédatées.">
-        Dissection de Fèces
-        <div class="skill-description">
-            <p>La dissection de fèces implique l'analyse minutieuse des excréments pour identifier les proies prédatées.</p>
-        </div>
-    </li>
-    <!-- Ajoutez d'autres compétences au besoin -->
-</ul>
 
 <!DOCTYPE html>
 <html lang="en">
