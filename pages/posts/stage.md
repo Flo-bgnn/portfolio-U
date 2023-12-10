@@ -2,7 +2,7 @@
 title: Stages
 date: 2023/3/12
 description: Ici tous les stages effectué durant ma vie
-tag: web development
+tag: Experience
 author: You
 type: post
 ---
