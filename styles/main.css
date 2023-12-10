@@ -16,59 +16,57 @@
 }
 
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 450;
-  font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
-  background-color: #ffffff; /* Fond blanc par défaut */
-  color: black !important; /* Texte noir par défaut */
+  font-family: 'Inter var', 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-b, strong, h3, h4, h5, h6 {
-  font-variation-settings: 'wght' 650;
-}
-
-h1 {
-  font-variation-settings: 'wght' 850;
-}
-
-h2 {
-  font-variation-settings: 'wght' 750;
-}
-
-@media screen and (min-device-pixel-ratio: 1.5),
-  screen and (min-resolution: 1.5dppx) {
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-}
-
-details summary {
-  cursor: pointer;
-}
-
-img.next-image {
-  margin: 0;
-}
-
-.prose a {
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
   color: #0074de;
 }
 
-.nav-line .nav-link {
-  color: #69778c;
+b, strong {
+  font-weight: 600;
+}
+
+a {
+  color: #0074de;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 40px;
 }
 
 @media (prefers-color-scheme: dark) {
-  /* Styles pour le mode sombre */
   body {
-    background-color: #000; /* Couleur de fond sombre */
-    color: #fff; /* Texte blanc ou clair */
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #4caf50;
+  }
+
+  a {
+    color: #4caf50;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
