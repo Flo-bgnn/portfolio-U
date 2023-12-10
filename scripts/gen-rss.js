@@ -40,7 +40,3 @@ async function generate() {
 }
 
 generate()
-
-
-
-ki
