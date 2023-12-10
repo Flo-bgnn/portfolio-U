@@ -2,8 +2,9 @@
 title: Escalade et Bloc
 date: 2022/12/02
 author: You
-type: post
+description: Ici tous les stages effectué durant ma vie
 tag: web development
+type: post
 ---
 
 # Escalade et Pratique du Bloc
