@@ -235,4 +235,7 @@ En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie mo
     </style>
     <title>Mosaïque d'Images</title>
 
-  
+  ## Stage d'observation 3ème Airliquide (2016)
+J'ai réalisé mon stage de 3ème sur le sîte de sasseage de Airliquide la où il participe notamment à l'élaboration de reservoir pour fusée.
+
+  <img src="/images/AL.jpg">
