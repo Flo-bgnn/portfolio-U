@@ -41,7 +41,6 @@ Je pratique l'escalade de bloc et de falaise.
         <img src="/images/escalade2.jpeg" alt="Image 2" class="mosaic-image">
     </div>
 
-    <!-- La suite de votre contenu HTML ici -->
     
 </body>
 </html>
