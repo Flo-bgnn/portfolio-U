@@ -19,7 +19,7 @@ Je pratique l'escalade de bloc et de falaise.
 <li>Gestion du stress </li>
 <li>Résilience </li>
 <li>Adaptabilté </li>
-</ul>>
+</ul>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,7 +61,7 @@ Je pratique le piano depuis 4 ans maintenant
 <li>Concentration </li>
 <li>Créativité </li>
 <li>Discipline </li>
-</ul>>
+</ul>
 
 ## Rap 
 AJNAAAAAA
