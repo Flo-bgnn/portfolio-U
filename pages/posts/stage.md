@@ -13,7 +13,7 @@ type: post
 
 Pendant l'été 2023, j'ai eu l'opportunité passionnante de participer à un stage en Finlande, axé sur l'étude du régime alimentaire des grands prédateurs de Carélie. Ce stage d'une durée d'un mois, de juillet à août, m'a permis d'explorer la fascinante diversité des régimes alimentaires des prédateurs de cette région. Entre les observations sur le terrain, les analyses de données et les rencontres avec des experts, cette expérience a enrichi ma compréhension de l'écologie des grands prédateurs.
 
-### compétence
+### compétences
 
 <ul class="skill-list">
     <li class="skill-item" data-description="QGIS est un logiciel libre et open source de système d'information géographique (SIG) qui permet de visualiser, analyser et interpréter des données spatiales.">
@@ -88,7 +88,7 @@ Pendant l'été 2023, j'ai eu l'opportunité passionnante de participer à un st
 
 En janvier 2023, j'ai eu l'opportunité de participer à un stage de biologie moléculaire d'une durée d'un mois à l'IAB (Institut of Advanced Biology) à Grenoble. Au cœur de ce laboratoire de pointe, j'ai pu plonger dans le monde fascinant de la biologie moléculaire, en travaillant sur des projets innovants et en collaborant avec des chercheurs passionnés. Cette expérience a renforcé mes compétences techniques et ma passion pour la recherche scientifique.
 
-### compétence
+### compétences
 
 <!DOCTYPE html>
 <html lang="en">

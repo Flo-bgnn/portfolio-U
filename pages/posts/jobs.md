@@ -15,7 +15,7 @@ type: post
 
 Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassenage. Cela comprenait la surveillance des installations, la réparation des équipements et le maintien de la propreté.
 
-### Compétence 
+### Compétences 
 
 <ul>
 <li>Rigueur </li>
@@ -82,7 +82,7 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
 
 Participation à un projet de rénovation de l'école municipale de Sassenage dans le cadre du programme Chantier Jeune. Les tâches comprenaient la peinture, la réparation de meubles et d'autres travaux de rénovation.
 
-### Compétence 
+### Compétences 
 
 <ul>
 <li>Rigueur </li>

@@ -8,13 +8,13 @@ type: post
 ---
 
 # Portfolio 
-## Compétence
+## Compétences
 <ul>
 <li>HTML
 </li>
 <li>Javascript
 </li>
-<li> Autres compétence d'informatique acquise différemment : Pyhton, VBA, R, C
+<li> Autres compétences d'informatique acquise différemment : Pyhton, VBA, R, C
 </li>
 </ul>
 

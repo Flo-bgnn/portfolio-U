@@ -13,7 +13,7 @@ type: post
 
 Je pratique l'escalade de bloc et de falaise.
 
-### Compétence 
+### Compétences 
 
 <ul>
 <li>Gestion du stress </li>
@@ -55,7 +55,7 @@ Je pratique l'escalade de bloc et de falaise.
 ## Piano
 Je pratique le piano depuis 4 ans maintenant 
 
-### Compétence 
+### Compétences 
 
 <ul>
 <li>Concentration </li>
