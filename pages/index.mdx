@@ -1,70 +1,40 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florent Beguin</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            position: relative;
-        }
+---
+type: page
+title: Florent Beguin
+date: 2021-03-19
+---
 
-        .border-image {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: -1;
-            background: url('/images/border-image.jpg') repeat;
-        }
 
-        .container {
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.8);
-            position: relative; /* Ensure the container is positioned relative for z-index to work */
-            z-index: 1; /* Bring the container above the border image */
-        }
+# Florent Beguin
 
-        h1, h2, p {
-            color: #333;
-        }
+---
 
-        .contact-links a {
-            color: #007BFF;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="border-image"></div>
-    <div class="container">
-        <!-- Your existing content here -->
+## à propos de moi 
 
-        # Florent Beguin
+Je suis Florent, étudiant passionné par la biologie et la physique. Fort de 5 d'années d'expérience, je me spécialise dans l'écologie évolutive. Mon parcours professionnel m'a permis de travailler sur des projets stimulants, tels que le régime alimentaire des grands prédateurs de Carélie. En dehors du travail, j'aime l'escalade et la musique. Mon objectif est . Explorez mon portfolio pour en savoir plus sur mes réalisations et n'hésitez pas à me contacter pour discuter de collaborations passionnantes.
+## Me contacter:
 
-        ---
+- GitHub [@flo-bgnn](https://github.com/flo-bgnn)
+- Instagram [@flo_bgnn](https://instagram.com/flo_bgnn)
+- Email [florent.beguin38@gmail.com](mailto:florent.beguin38@gmail.com)
+- téléphone : 06 87 42 47 71
 
-        ## À propos de moi 
 
-        Je suis Florent, étudiant passionné par la biologie et la physique. Fort de 5 années d'expérience, je me spécialise dans l'écologie évolutive. Mon parcours professionnel m'a permis de travailler sur des projets stimulants, tels que le régime alimentaire des grands prédateurs de Carélie. En dehors du travail, j'aime l'escalade et la musique. Mon objectif est... Explorez mon portfolio pour en savoir plus sur mes réalisations et n'hésitez pas à me contacter pour discuter de collaborations passionnantes.
+import ImageLicence from 'next/image';
+import styles from '/styles/main.css'; // Assurez-vous que le chemin est correct
 
-        ## Me contacter:
-
-        <div class="contact-links">
-            - GitHub <a href="https://github.com/flo-bgnn" target="_blank">@flo-bgnn</a>
-            - Instagram <a href="https://instagram.com/flo_bgnn" target="_blank">@flo_bgnn</a>
-            - Email <a href="mailto:florent.beguin38@gmail.com">florent.beguin38@gmail.com</a>
-            - Téléphone: 06 87 42 47 71
-        </div>
+const YourComponent = () => {
+  return (
+    <div className="next-image">
+      <ImageLicence
+        src="/images/UGA.jpeg"
+        alt="Licence"
+        width={800}
+        height={600}
+        priority
+        className={`${styles.full-height} next-image`}
+      />
     </div>
-</body>
-</html>
-
+  );
+};
 
