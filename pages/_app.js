@@ -21,8 +21,9 @@ export default function Nextra({ Component, pageProps }) {
         />
       </Head>
       <Head>
+      
         {/* Ajoutez le lien RSS ici pour qu'il apparaisse en premier */}
-        <link
+        <link pages/index.mdx
           rel="alternate"
           type="application/rss+xml"
           title="RSS"
