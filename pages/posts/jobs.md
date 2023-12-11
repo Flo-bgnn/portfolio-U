@@ -37,13 +37,41 @@ Participation à un projet de rénovation de l'école municipale de Sassenage da
 
 Garde d'animaux rémunérée pour des particuliers. Responsabilités comprenant la prise en charge d'un lapin et de deux chiens sur une période de deux mois. Cela incluait la nourriture, les promenades et l'attention nécessaire.
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
-    <div style="flex: 1; text-align: center;">
-        <img src="/images/grande-image.jpeg" alt="Grande Image" style="width: 200px; height: 300px; object-fit: cover;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #image-container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .image {
+            flex: 1;
+            box-sizing: border-box;
+            border: 2px solid #333;
+            object-fit: cover;
+            margin: 5px; /* Ajout de marges pour l'espace entre les images */
+        }
+
+        .big-image {
+            flex: 2; /* Double de la largeur des petites images */
+            height: 300px; /* Hauteur fixe */
+        }
+    </style>
+    <title>Mosaïque d'Images</title>
+</head>
+<body>
+    <div id="image-container">
+        <img src="/images/grande-image.jpeg" alt="Grande Image" class="image big-image">
+        <img src="/images/petite-image1.jpeg" alt="Petite Image 1" class="image">
+        <img src="/images/petite-image2.jpeg" alt="Petite Image 2" class="image">
     </div>
-    <div style="flex: 1; text-align: center;">
-        <img src="/images/petite-image1.jpeg" alt="Petite Image 1" style="width: 100px; height: 150px; object-fit: cover; margin-bottom: 5px;">
-        <img src="/images/petite-image2.jpeg" alt="Petite Image 2" style="width: 100px; height: 150px; object-fit: cover;">
-    </div>
-</div>
+</body>
+</html>
+
 
