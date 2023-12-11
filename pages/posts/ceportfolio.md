@@ -1,5 +1,5 @@
 ---
-title: Ce portfolio
+title: Portfolio
 date: 2023/3/11
 description: Projet - Réalisation de ce portfolio (HTML - Javascript)
 tag: projet
@@ -7,7 +7,7 @@ author: You
 type: post
 ---
 
-# Ce portfolio 
+# Portfolio 
 ## Compétence
 <ul>
 <li>HTML
