@@ -87,6 +87,7 @@ Participation à un projet de rénovation de l'école municipale de Sassenage da
 <ul>
 <li>Rigueur </li>
 </ul>
+
 ![Chantier Jeune](/images/travaux.jpg)
 
 ---
