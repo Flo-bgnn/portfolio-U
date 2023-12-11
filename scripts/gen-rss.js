@@ -22,7 +22,6 @@ async function generate() {
       const frontmatter = matter(content)
 
       allPosts.push({
-        ---
         title: frontmatter.data.title,
         url: '/posts/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
