@@ -25,8 +25,8 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-  background-color: #ffffff; /* Fond blanc par défaut */
-  color: black !important; /* Texte noir par défaut */
+  background-color: #EAF7AD; /* Fond blanc par défaut */
+  color: #0F1104 !important; /* Texte noir par défaut */
 }
 
 b, strong, h3, h4, h5, h6 {
