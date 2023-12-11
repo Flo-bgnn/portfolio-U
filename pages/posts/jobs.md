@@ -19,9 +19,17 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
         #image-container {
             display: flex;
-            max-width: 800px;
+            max-width: 600px; /* Réduire la largeur du conteneur */
             margin: 0 auto;
         }
 
@@ -31,7 +39,8 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
             border: 2px solid #333;
             object-fit: cover;
             margin: 5px; /* Ajout de marges pour l'espace autour de l'image */
-            height: 300px; /* Hauteur fixe */
+            max-height: 300px; /* Hauteur maximale */
+            width: auto; /* Ajuster la largeur automatiquement */
         }
     </style>
     <title>Mosaïque d'Images</title>
@@ -43,6 +52,7 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
     </div>
 </body>
 </html>
+
 
 
 
