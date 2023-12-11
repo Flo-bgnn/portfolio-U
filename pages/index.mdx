@@ -6,7 +6,16 @@ date: 2021-03-19
 
 # Florent Beguin
 
-<img src="/images/index.jpeg" alt="Nom de l'image" style="float: left; margin-right: 10px; width: 100px;">
+import ImageLicen from 'next/image'
+
+<ImageLicen
+  src="/images/index.jpeg"
+  alt="Licence"
+  width={800}
+  height={600}
+  priority
+  className="next-image"
+/>
 
 Salut ! Je suis Florent, un étudiant en 1ère année de Master d'écologie évolutive et fonctionnelle. Bienvenue sur mon portfolio !
 
