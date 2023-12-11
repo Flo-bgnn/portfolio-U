@@ -13,7 +13,40 @@ type: post
 
 ### theme.config.js
 
-Ce code est un module JavaScript qui exporte un objet avec une propriété "footer". Le pied de page (footer) est défini comme un élément JSX (JavaScript XML) avec une balise <small>. À l'intérieur de cet élément, il y a un élément <time> qui affiche l'année actuelle obtenue à l'aide de la fonction new Date().getFullYear(). Mon nom est affiché avec l'année, suivi d'un lien "RSS". Le style du pied de page est défini en utilisant les propriétés CSS en ligne dans la balise <small>. De plus, le style spécifique au module est déclaré à l'aide de la syntaxe styled-jsx, avec une règle de style pour un lien (a) qui flotte à droite, et une règle de style conditionnelle basée sur la largeur de l'écran.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .text {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Image and Text Layout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h2>Sample Text</h2>
+            <p>Ce code est un module JavaScript qui exporte un objet avec une propriété "footer". Le pied de page (footer) est défini comme un élément JSX (JavaScript XML) avec une balise <small>. À l'intérieur de cet élément, il y a un élément <time> qui affiche l'année actuelle obtenue à l'aide de la fonction new Date().getFullYear(). Mon nom est affiché avec l'année, suivi d'un lien "RSS". Le style du pied de page est défini en utilisant les propriétés CSS en ligne dans la balise <small>. De plus, le style spécifique au module est déclaré à l'aide de la syntaxe styled-jsx, avec une règle de style pour un lien (a) qui flotte à droite, et une règle de style conditionnelle basée sur la largeur de l'écran.</p>
+        </div>
+        <img class="image" src="/images/1.png" alt="Sample Image">
+    </div>
+</body>
+</html>
+
 
 ### next.config.js
 
