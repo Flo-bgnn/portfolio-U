@@ -31,11 +31,11 @@ Garde d'animaux rémunérée pour des particuliers. Responsabilités comprenant 
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
     <div style="flex: 1; text-align: center;">
-        <img src="/chemin/vers/grande-image.jpeg" alt="Grande Image" style="width: 200px; height: 300px; object-fit: cover;">
+        <img src="/images/grande-image.jpeg" alt="Grande Image" style="width: 200px; height: 300px; object-fit: cover;">
     </div>
     <div style="flex: 1; text-align: center;">
-        <img src="/chemin/vers/petite-image-1.jpeg" alt="Petite Image 1" style="width: 100px; height: 150px; object-fit: cover; margin-bottom: 5px;">
-        <img src="/chemin/vers/petite-image-2.jpeg" alt="Petite Image 2" style="width: 100px; height: 150px; object-fit: cover;">
+        <img src="/images/petite-image-1.jpeg" alt="Petite Image 1" style="width: 100px; height: 150px; object-fit: cover; margin-bottom: 5px;">
+        <img src="/images/petite-image-2.jpeg" alt="Petite Image 2" style="width: 100px; height: 150px; object-fit: cover;">
     </div>
 </div>
 
