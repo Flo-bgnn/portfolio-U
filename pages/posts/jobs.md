@@ -45,33 +45,43 @@ Garde d'animaux rémunérée pour des particuliers. Responsabilités comprenant 
     <style>
         #image-container {
             display: flex;
-            flex-wrap: wrap;
             max-width: 800px;
             margin: 0 auto;
         }
 
-        .image {
-            flex: 1;
+        .big-image {
+            flex: 1; /* Prend 50% de la largeur */
             box-sizing: border-box;
             border: 2px solid #333;
             object-fit: cover;
-            margin: 5px; /* Ajout de marges pour l'espace entre les images */
+            margin: 5px; /* Ajout de marges pour l'espace autour de l'image */
+            height: 300px; /* Hauteur fixe */
         }
 
-        .big-image {
-            flex: 2; /* Double de la largeur des petites images */
-            height: 300px; /* Hauteur fixe */
+        #small-images {
+            flex: 1; /* Prend 50% de la largeur */
+            display: flex;
+            flex-direction: column; /* Les images petites sont empilées verticalement */
+            margin-left: 5px; /* Marge entre la grande image et les petites images */
+        }
+
+        .small-image {
+            flex: 1; /* Chaque petite image prend la moitié de la hauteur disponible */
+            box-sizing: border-box;
+            border: 2px solid #333;
+            object-fit: cover;
+            margin: 5px 0; /* Ajout de marges pour l'espace entre les petites images */
         }
     </style>
     <title>Mosaïque d'Images</title>
 </head>
 <body>
     <div id="image-container">
-        <img src="/images/grande-image.jpeg" alt="Grande Image" class="image big-image">
-        <img src="/images/petite-image1.jpeg" alt="Petite Image 1" class="image">
-        <img src="/images/petite-image2.jpeg" alt="Petite Image 2" class="image">
+        <img src="/images/grande-image.jpeg" alt="Grande Image" class="big-image">
+        <div id="small-images">
+            <img src="/images/petite-image1.jpeg" alt="Petite Image 1" class="small-image">
+            <img src="/images/petite-image2.jpeg" alt="Petite Image 2" class="small-image">
+        </div>
     </div>
 </body>
 </html>
-
-
