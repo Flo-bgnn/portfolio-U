@@ -117,7 +117,7 @@ Voici des projets de Rap que j'aime particulièrement.
     <div class="text-overlay">Garçin - Luther</div>
   </div>
   <div class="mosaic-item">
-    <img src="/images/m4.jpeg" alt="Image 4">
+    <img src="/images/m4.jpeg" alt="Image 4"> 
     <div class="text-overlay">La folie des grandeurs - Houdi </div>
   </div>
   <div class="mosaic-item">
