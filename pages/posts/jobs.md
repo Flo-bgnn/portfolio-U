@@ -15,7 +15,7 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
 
 <div style="display: flex;">
     <div style="flex: 1; text-align: center;">
-        <img src="/images/piscine.jpeg" alt="Image 1" style="width: 100%; height: auto;">
+        <img src="/images/piscine.jpg" alt="Image 1" style="width: 100%; height: auto;">
     </div>
     <div style="flex: 1; text-align: center;">
         <img src="/images/piscine1.jpeg" alt="Image 2" style="width: 100%; height: auto;">
