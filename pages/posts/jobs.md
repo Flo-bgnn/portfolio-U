@@ -75,7 +75,7 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
 
 Participation à un projet de rénovation de l'école municipale de Sassenage dans le cadre du programme Chantier Jeune. Les tâches comprenaient la peinture, la réparation de meubles et d'autres travaux de rénovation.
 
-![Chantier Jeune](/images/chantier_jeune.jpg)
+![Chantier Jeune](/images/travaux.jpg)
 
 ---
 

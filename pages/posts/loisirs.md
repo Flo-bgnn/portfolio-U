@@ -9,7 +9,7 @@ type: post
 
 # Loisirs/Sport
 
-## escalade
+## Escalade
 
 ## Piano
 Je pratique le piano depuis 4 ans maintenant 
