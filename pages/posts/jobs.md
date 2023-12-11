@@ -18,9 +18,9 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
 ### Compétence 
 
 <ul>
-<li>- Rigueur </li>
-<li>- Autonomie </li>
-<li>- Discipline </li>
+<li>Rigueur </li>
+<li>Autonomie </li>
+<li>Discipline </li>
 </ul>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,6 +82,11 @@ Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassen
 
 Participation à un projet de rénovation de l'école municipale de Sassenage dans le cadre du programme Chantier Jeune. Les tâches comprenaient la peinture, la réparation de meubles et d'autres travaux de rénovation.
 
+### Compétence 
+
+<ul>
+<li>Rigueur </li>
+</ul>
 ![Chantier Jeune](/images/travaux.jpg)
 
 ---
