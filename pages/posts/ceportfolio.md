@@ -8,6 +8,15 @@ type: post
 ---
 
 # Ce portfolio 
+## Compétence
+<ul>
+<li>HTML
+</li>
+<li>Javascript
+</li>
+<li> Autres compétence d'informatique acquise différemment : Pyhton, VBA, R, C
+</li>
+</ul>
 
 ## Structure du sîte
 
