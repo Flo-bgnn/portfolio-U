@@ -109,7 +109,7 @@ Voici des projets de Rap que j'aime particulièrement.
     <div class="text-overlay">L'hermite - Ajna</div>
   </div>
   <div class="mosaic-item">
-    <img src="/images/m2.jpeg" alt="Image 2">
+    <img src="/images/m2.jpg" alt="Image 2">
     <div class="text-overlay">2036 + 4 - Winnterzuko</div>
   </div>
   <div class="mosaic-item">
@@ -117,7 +117,7 @@ Voici des projets de Rap que j'aime particulièrement.
     <div class="text-overlay">Garçin - Luther</div>
   </div>
   <div class="mosaic-item">
-    <img src="/images/m4.jpegpg" alt="Image 4">
+    <img src="/images/m4.jpeg" alt="Image 4">
     <div class="text-overlay">La folie des grandeurs - Houdi </div>
   </div>
   <div class="mosaic-item">
