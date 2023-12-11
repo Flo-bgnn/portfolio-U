@@ -25,21 +25,18 @@ type: post
             flex-wrap: wrap; /* Permettre aux éléments de s'enrouler à une certaine largeur */
             flex-direction: row-reverse; /* Inverser l'ordre des éléments */
         }
-
         .text {
             flex: 1;
             padding: 20px;
             order: 2; /* Inverser l'ordre sur les écrans plus petits */
             width: 100%; /* Prend toute la largeur sur les écrans plus petits */
         }
-
         .image {
             max-width: 100%;
             height: auto;
             order: 1; /* Inverser l'ordre sur les écrans plus petits */
             width: 100%; /* Prend toute la largeur sur les écrans plus petits */
         }
-
         @media screen and (min-width: 768px) {
             /* Appliquer ces styles uniquement sur les écrans de 768 pixels ou plus larges */
             .text {
@@ -47,7 +44,6 @@ type: post
                 padding: 20px;
                 order: 2;
             }
-
             .image {
                 max-width: 50%; /* Utiliser la moitié de la largeur sur les écrans plus larges */
                 height: auto;
