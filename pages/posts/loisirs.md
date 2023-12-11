@@ -40,8 +40,6 @@ Je pratique l'escalade de bloc et de falaise.
         <img src="/images/Escalade.jpeg" alt="Image 1" class="mosaic-image">
         <img src="/images/escalade2.jpeg" alt="Image 2" class="mosaic-image">
     </div>
-
-    
 </body>
 </html>
 
