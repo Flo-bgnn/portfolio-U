@@ -105,35 +105,35 @@ Voici des projets de Rap que j'aime particulièrement.
 
 <div class="mosaic">
   <div class="mosaic-item">
-    <img src="images/m1.jpeg" alt="Image 1">
+    <img src="/images/m1.jpeg" alt="Image 1">
     <div class="text-overlay">L'hermite - Ajna</div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m2.jpeg" alt="Image 2">
+    <img src="/images/m2.jpeg" alt="Image 2">
     <div class="text-overlay">2036 + 4 - Winnterzuko</div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m3.jpeg" alt="Image 3">
+    <img src="/images/m3.jpeg" alt="Image 3">
     <div class="text-overlay">Garçin - Luther</div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m4.jpegpg" alt="Image 4">
+    <img src="/images/m4.jpegpg" alt="Image 4">
     <div class="text-overlay">La folie des grandeurs - Houdi </div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m5.jpeg" alt="Image 5">
+    <img src="/images/m5.jpeg" alt="Image 5">
     <div class="text-overlay">Deux frère - PNL</div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m6.jpeg" alt="Image 6">
+    <img src="/images/m6.jpeg" alt="Image 6">
     <div class="text-overlay">Eternel retour - Selug & Senar</div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m7.jpeg" alt="Image 7">
+    <img src="/images/m7.jpeg" alt="Image 7">
     <div class="text-overlay">Les étoiles vagabondes - Nekfeu</div>
   </div>
   <div class="mosaic-item">
-    <img src="images/m8.jpeg" alt="Image 8">
+    <img src="/images/m8.jpeg" alt="Image 8">
     <div class="text-overlay">000$ - Josamn</div>
   </div>
 </div>
