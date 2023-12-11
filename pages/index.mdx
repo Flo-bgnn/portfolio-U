@@ -19,8 +19,7 @@
             right: 0;
             bottom: 0;
             z-index: -1;
-            background-image: url('/images/border-image.jpg'); /* Replace with your border image path */
-            background-repeat: repeat;
+            background: url('/images/border-image.jpg') repeat;
         }
 
         .container {
@@ -28,6 +27,8 @@
             max-width: 800px;
             margin: 0 auto;
             background-color: rgba(255, 255, 255, 0.8);
+            position: relative; /* Ensure the container is positioned relative for z-index to work */
+            z-index: 1; /* Bring the container above the border image */
         }
 
         h1, h2, p {
@@ -65,4 +66,5 @@
     </div>
 </body>
 </html>
+
 
