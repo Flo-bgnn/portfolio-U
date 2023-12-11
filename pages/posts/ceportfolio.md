@@ -1,7 +1,7 @@
 ---
 title: Ce portfolio
 date: 2023/3/11
-description: Comment j'ai réaliser ce portfolio
+description: Projet - Réalisation de ce portfolio (HTML - Javascript)
 tag: projet
 author: You
 type: post

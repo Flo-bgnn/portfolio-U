@@ -1,7 +1,7 @@
 ---
-title: Jobs
+title: Expérience professionelle
 date: 2023/3/11
-description: Les Jobs que j'ai fait
+description: Expérience - Expérience professionelle depuis 2019
 tag: Experience
 author: You
 type: post

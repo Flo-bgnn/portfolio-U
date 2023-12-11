@@ -1,7 +1,7 @@
 ---
 title: Stages
 date: 2023/3/12
-description: Ici tous les stages effectué durant ma vie
+description: Expérience - Stage effectué depuis 2016
 tag: Experience
 author: You
 type: post

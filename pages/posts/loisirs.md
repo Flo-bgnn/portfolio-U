@@ -1,7 +1,7 @@
 ---
 title: Loisirs/Sport
 date: 2023/3/11
-description: Comment je m'occupe
+description: Expérience - Les loisirs et sport que je pratique sur mon temps libre
 tag: Experience
 author: You
 type: post
