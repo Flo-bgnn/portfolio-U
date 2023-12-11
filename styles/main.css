@@ -68,7 +68,7 @@ img.next-image {
 @media (prefers-color-scheme: dark) {
   /* Styles pour le mode sombre */
   body {
-    background-color: #black; /* Couleur de fond sombre */
-    color: #white; /* Texte blanc ou clair */
+    background-color: #000; /* Couleur de fond sombre */
+    color: #fff; /* Texte blanc ou clair */
   }
 }
