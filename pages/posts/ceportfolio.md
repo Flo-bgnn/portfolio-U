@@ -22,16 +22,37 @@ type: post
         .container {
             display: flex;
             align-items: center;
+            flex-wrap: wrap; /* Permettre aux éléments de s'enrouler à une certaine largeur */
         }
 
         .text {
             flex: 1;
             padding: 20px;
+            order: 1; /* Changer l'ordre sur les écrans plus petits */
+            width: 100%; /* Prend toute la largeur sur les écrans plus petits */
         }
 
         .image {
             max-width: 100%;
             height: auto;
+            order: 2; /* Changer l'ordre sur les écrans plus petits */
+            width: 100%; /* Prend toute la largeur sur les écrans plus petits */
+        }
+
+        @media screen and (min-width: 768px) {
+            /* Appliquer ces styles uniquement sur les écrans de 768 pixels ou plus larges */
+            .text {
+                flex: 1;
+                padding: 20px;
+                order: 1;
+            }
+
+            .image {
+                max-width: 50%; /* Utiliser la moitié de la largeur sur les écrans plus larges */
+                height: auto;
+                order: 2;
+                width: auto; /* Ajuster la largeur automatiquement sur les écrans plus larges */
+            }
         }
     </style>
     <title>Image and Text Layout</title>
@@ -48,6 +69,7 @@ type: post
 </html>
 
 
+
 ### next.config.js
 
 Le fichier de configuration représente les paramètres essentiels pour un projet Node.js basé sur Next.js. Il définit des propriétés telles que la nature privée du projet, la licence MIT, des scripts npm pour les tâches de développement, de construction, et de démarrage du serveur, ainsi que les dépendances nécessaires, notamment Next.js, React, et des modules associés. De plus, le fichier configure les règles de formatage Prettier pour assurer une cohérence dans le code du projet. Ces éléments suggèrent un projet de site web utilisant Next.js, avec une attention particulière portée à la génération d'un fichier RSS, la gestion des métadonnées avec gray-matter, et un thème de blog via nextra-theme-blog.
@@ -58,7 +80,7 @@ fichier css classique. utiliser pour l'apparence du sîte
 
 ### gen-rss.js
 
-Ce code Node.js est un java script qui facilite la création d'un fichier RSS pour un blog. Il utilise différents outils, tels que `fs` pour gérer les fichiers, `path` pour manipuler les chemins, et `gray-matter` pour extraire des informations d'articles. Le script lit les fichier mdx, organise les données, crée un flux RSS, puis enregistre le résultat dans le dossier public du projet. En résumé, ce script simplifie la création d'un flux RSS pour un blog en automatisant le processus.
+Ce code Node.js est un java script qui facilite la création d'un fichier RSS pour un blog. Il utilise différents outils, tels que fs pour gérer les fichiers, path pour manipuler les chemins, et gray-matter pour extraire des informations d'articles. Le script lit les fichier mdx, organise les données, crée un flux RSS, puis enregistre le résultat dans le dossier public du projet. En résumé, ce script simplifie la création d'un flux RSS pour un blog en automatisant le processus.
 
 ### app.js
 
