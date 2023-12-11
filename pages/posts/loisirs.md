@@ -63,7 +63,34 @@ Je pratique le piano depuis 4 ans maintenant
 <li>Discipline </li>
 </ul>
 
- <img src="/images/piano.jpeg" alt="Image 7">
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Script avec Image</title>
+    <style>
+        /* Ajoutez ici vos styles CSS si nécessaire */
+        .cadre {
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cadre">
+        <!-- Ajoutez ici le reste de votre contenu -->
+        <h1>Mon Script avec Image</h1>
+        <p>Voici une image encadrée :</p>
+        <img src="/images/piano.jpeg" alt="Image 7">
+    </div>
+
+</body>
+</html>
+
 
 ## Rap 
 Voici des projets de Rap que j'aime particulièrement.
