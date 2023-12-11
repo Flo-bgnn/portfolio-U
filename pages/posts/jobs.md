@@ -15,6 +15,13 @@ type: post
 
 Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassenage. Cela comprenait la surveillance des installations, la réparation des équipements et le maintien de la propreté.
 
+### Compétence 
+
+<ul>
+<li>- Rigueur </li>
+<li>- Autonomie </li>
+<li>- Discipline </li>
+</ul>
 <!DOCTYPE html>
 <html lang="en">
 <head>
