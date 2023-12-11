@@ -63,6 +63,8 @@ Je pratique le piano depuis 4 ans maintenant
 <li>Discipline </li>
 </ul>
 
+ <img src="/images/piano.jpeg" alt="Image 7">
+
 ## Rap 
 Voici des projets de Rap que j'aime particulièrement.
 
