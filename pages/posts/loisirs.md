@@ -1,5 +1,5 @@
 ---
-title: Loisirs/sport
+title: Loisirs/Sport
 date: 2023/3/11
 description: Comment je m'occupe
 tag: Experience
