@@ -114,7 +114,7 @@ Voici des projets de Rap que j'aime particulièrement.
   </div>
   <div class="mosaic-item">
     <img src="/images/m3.jpeg" alt="Image 3">
-    <div class="text-overlay">Garçin - Luther</div>
+    <div class="text-overlay">Garçon - Luther</div>
   </div>
   <div class="mosaic-item">
     <img src="/images/m4.jpeg" alt="Image 4"> 
@@ -122,7 +122,7 @@ Voici des projets de Rap que j'aime particulièrement.
   </div>
   <div class="mosaic-item">
     <img src="/images/m5.jpeg" alt="Image 5">
-    <div class="text-overlay">Deux frère - PNL</div>
+    <div class="text-overlay">Deux frères - PNL</div>
   </div>
   <div class="mosaic-item">
     <img src="/images/m6.jpeg" alt="Image 6">
