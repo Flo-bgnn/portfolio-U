@@ -14,6 +14,8 @@ type: post
 </li>
 <li>Javascript
 </li>
+<li>Markdown
+</li>
 <li> Autres compétences d'informatique acquise différemment : Pyhton, VBA, R, C
 </li>
 </ul>
