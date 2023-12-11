@@ -12,7 +12,9 @@ type: post
 ## Structure du sîte
 
 ### theme.config.js
+D'accord, si vous souhaitez que l'image soit à droite et que le texte s'écrive autour d'elle, vous pouvez ajuster l'ordre des éléments et utiliser la propriété `flex-direction: row-reverse;` pour inverser l'ordre des éléments dans le conteneur. Voici la modification de votre code :
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,19 +25,20 @@ type: post
             display: flex;
             align-items: center;
             flex-wrap: wrap; /* Permettre aux éléments de s'enrouler à une certaine largeur */
+            flex-direction: row-reverse; /* Inverser l'ordre des éléments */
         }
 
         .text {
             flex: 1;
             padding: 20px;
-            order: 1; /* Changer l'ordre sur les écrans plus petits */
+            order: 2; /* Inverser l'ordre sur les écrans plus petits */
             width: 100%; /* Prend toute la largeur sur les écrans plus petits */
         }
 
         .image {
             max-width: 100%;
             height: auto;
-            order: 2; /* Changer l'ordre sur les écrans plus petits */
+            order: 1; /* Inverser l'ordre sur les écrans plus petits */
             width: 100%; /* Prend toute la largeur sur les écrans plus petits */
         }
 
@@ -44,13 +47,13 @@ type: post
             .text {
                 flex: 1;
                 padding: 20px;
-                order: 1;
+                order: 2;
             }
 
             .image {
                 max-width: 50%; /* Utiliser la moitié de la largeur sur les écrans plus larges */
                 height: auto;
-                order: 2;
+                order: 1;
                 width: auto; /* Ajuster la largeur automatiquement sur les écrans plus larges */
             }
         }
@@ -61,12 +64,14 @@ type: post
     <div class="container">
         <div class="text">
             <h2>Sample Text</h2>
-            <p>Ce code est un module JavaScript qui exporte un objet avec une propriété "footer". Le pied de page (footer) est défini comme un élément JSX (JavaScript XML) avec une balise <small>. À l'intérieur de cet élément, il y a un élément <time> qui affiche l'année actuelle obtenue à l'aide de la fonction new Date().getFullYear(). Mon nom est affiché avec l'année, suivi d'un lien "RSS". Le style du pied de page est défini en utilisant les propriétés CSS en ligne dans la balise <small>. De plus, le style spécifique au module est déclaré à l'aide de la syntaxe styled-jsx, avec une règle de style pour un lien (a) qui flotte à droite, et une règle de style conditionnelle basée sur la largeur de l'écran.</p>
+            <p>Ce code est un module JavaScript qui exporte un objet avec une propriété "footer". Le pied de page (footer) est défini comme un élément JSX (JavaScript XML) avec une balise small. À l'intérieur de cet élément, il y a un élément time qui affiche l'année actuelle obtenue à l'aide de la fonction new Date().getFullYear(). Mon nom est affiché avec l'année, suivi d'un lien "RSS". Le style du pied de page est défini en utilisant les propriétés CSS en ligne dans la balise small. De plus, le style spécifique au module est déclaré à l'aide de la syntaxe styled-jsx, avec une règle de style pour un lien (a) qui flotte à droite, et une règle de style conditionnelle basée sur la largeur de l'écran.</p>
         </div>
         <img class="image" src="/images/1.png" alt="Sample Image">
     </div>
 </body>
 </html>
+```
+
 
 
 
