@@ -9,18 +9,66 @@ type: post
 
 # Jobs 
 
+---
+
 ## Agent de maintenance piscine municipale de Sassenage (été 2021)
 
 Travaux d'entretien et de maintenance au sein de la piscine municipale de Sassenage. Cela comprenait la surveillance des installations, la réparation des équipements et le maintien de la propreté.
 
-<div style="display: flex;">
-    <div style="flex: 1; text-align: center;">
-        <img src="/images/piscine.jpg" alt="Image 1" style="width: 100%; height: auto;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #image-container {
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .big-image {
+            flex: 1; /* Prend 50% de la largeur */
+            box-sizing: border-box;
+            border: 2px solid #333;
+            object-fit: cover;
+            margin: 5px; /* Ajout de marges pour l'espace autour de l'image */
+            height: 300px; /* Hauteur fixe */
+        }
+
+        #small-images {
+            flex: 1; /* Prend 50% de la largeur */
+            display: flex;
+            flex-direction: column; /* Les images petites sont empilées verticalement */
+            margin-left: 5px; /* Marge entre la grande image et les petites images */
+        }
+
+        .small-image {
+            flex: 1; /* Chaque petite image prend la moitié de la hauteur disponible */
+            box-sizing: border-box;
+            border: 2px solid #333;
+            object-fit: cover;
+            margin: 5px 0; /* Ajout de marges pour l'espace entre les petites images */
+            width: 100%; /* Ajuster la largeur à 100% pour centrer l'image */
+            height: auto; /* Ajuster automatiquement la hauteur */
+        }
+    </style>
+    <title>Mosaïque d'Images</title>
+</head>
+<body>
+    <div id="image-container">
+        <div style="flex: 1; text-align: center;">
+            <img src="/images/piscine.jpg" alt="Image 1" class="big-image">
+        </div>
+        <div id="small-images">
+            <img src="/images/piscine.jpeg" alt="Image 2" class="small-image">
+        </div>
     </div>
-    <div style="flex: 1; text-align: center;">
-        <img src="/images/piscine.jpeg" alt="Image 2" style="width: 100%; height: auto;">
-    </div>
-</div>
+
+    <!-- La suite de votre contenu HTML ici -->
+    
+</body>
+</html>
 
 
 ---
