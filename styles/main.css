@@ -64,11 +64,11 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
-
+  
 @media (prefers-color-scheme: dark) {
   /* Styles pour le mode sombre */
   body {
-    background-color: #09000d; /* Couleur de fond sombre */
-    color: #797979; /* Texte blanc ou clair */
+    background-color: #f6e0ff; /* Couleur de fond sombre */
+    color: #340000; /* Texte blanc ou clair */
   }
 }
