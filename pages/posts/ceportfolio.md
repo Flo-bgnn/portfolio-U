@@ -12,9 +12,7 @@ type: post
 ## Structure du sîte
 
 ### theme.config.js
-D'accord, si vous souhaitez que l'image soit à droite et que le texte s'écrive autour d'elle, vous pouvez ajuster l'ordre des éléments et utiliser la propriété `flex-direction: row-reverse;` pour inverser l'ordre des éléments dans le conteneur. Voici la modification de votre code :
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,8 +68,6 @@ D'accord, si vous souhaitez que l'image soit à droite et que le texte s'écrive
     </div>
 </body>
 </html>
-```
-
 
 
 
