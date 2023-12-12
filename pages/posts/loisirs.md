@@ -83,7 +83,7 @@ Je pratique le piano depuis 4 ans maintenant
     <div class="cadre">
         <!-- Ajoutez ici le reste de votre contenu -->
         <h1>Mon Script avec Image</h1>
-        <p>Voici une image encadrée :</p>
+        <p></p>
         <img src="/images/piano.jpeg" alt="Image 7">
     </div>
 </body>
