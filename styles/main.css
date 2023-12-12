@@ -72,3 +72,15 @@ img.next-image {
     color: #fff; /* Texte blanc ou clair */
   }
 }
+
+.full-height {
+  height: 100vh; /* Utilise la hauteur complète de la fenêtre */
+  object-fit: cover; /* Ajuste l'image pour couvrir la boîte tout en conservant les proportions */
+  object-position: right center; /* Positionne l'image sur le bord droit et au centre verticalement */
+}
+
+.body-container {
+  background-image: url('/path-to-left-image.jpg'), url('/path-to-right-image.jpg');
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+}
