@@ -25,3 +25,4 @@ export default function Nextra({ Component, pageProps }) {
     </>
   )
 }
+
