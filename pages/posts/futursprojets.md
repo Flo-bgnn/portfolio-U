@@ -13,12 +13,5 @@ type: post
 
 Projet d'étude des Big 5 d'Afrique du Sud (éléphants, lions, rhinocéros, léopards et buffles). Au sein d'une réserve. La réserve est nichée entre les montagnes du Drakensburg et le parc national Kruger, au cœur du Lowveld. 
 
-import Imagerino from 'next/image'
-<Imagerino
-  src="/images/rino.jpeg"
-  alt="Bac"
-  width={800}
-  height={600}
-  priority
-  className="next-image"
-  />
+
+<img src="/images/rino.jpeg" alt="Image 1" class="image">
