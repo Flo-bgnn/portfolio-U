@@ -12,3 +12,13 @@ type: post
 ## Stage en Arfrique du Sud (21 juin 2024 - 19 août 2024)
 
 Projet d'étude des Big 5 d'Afrique du Sud (éléphants, lions, rhinocéros, léopards et buffles). Au sein d'une réserve. La réserve est nichée entre les montagnes du Drakensburg et le parc national Kruger, au cœur du Lowveld. 
+
+import Imagerino from 'next/image'
+<Imagerino
+  src="/images/rino.jpeg"
+  alt="Bac"
+  width={800}
+  height={600}
+  priority
+  className="next-image"
+  />
