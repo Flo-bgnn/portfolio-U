@@ -80,7 +80,7 @@ img.next-image {
 }
 
 .body-container {
-  background-image: url('/path-to-left-image.jpg'), url('/path-to-right-image.jpg');
+  background-image: url('/images/i15.jpg'), url('/images/i15.jpg');
   background-position: left top, right top;
   background-repeat: no-repeat, no-repeat;
 }
