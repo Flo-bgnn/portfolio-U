@@ -6,7 +6,7 @@ import '../styles/main.css'
 export default function Nextra({ Component, pageProps }) {
   return (
     <>
-      <Head>
+      <Head> 
         <link
           rel="alternate"
           type="application/rss+xml"
