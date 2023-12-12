@@ -15,6 +15,12 @@
   font-named-instance: 'Italic';
 }
 
+.body-container {
+  background-image: url('/images/i15.jpg'), url('/images/i15.jpg');
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+}
+
 body {
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
@@ -28,6 +34,7 @@ body {
   background-color: #ffffff; /* Fond blanc par défaut */
   color: #000000 !important; /* Texte noir par défaut */
 }
+
 
 b, strong, h3, h4, h5, h6 {
   font-variation-settings: 'wght' 650;
